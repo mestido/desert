@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            font-size: 25px;
+            text-align: center;
+            background: #AA7E41;
+            color: #FBDBAF;
+            padding: 20px 0;
+            margin-top: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        img {
+            width: 400px;
+            height: 500px;
+            margin: 10px;
+            transition: transform 0.7s;
+            border-radius: 2%;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            color: #5D3907;
+            text-align: center;
+            margin-top: 15px;
+            font-size: 30px;
+        }
+
+        footer:hover {
+            transform: translateY(-13px);
+            transition: 1s;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Deserts Gallery</h1>
+    <div class="container">
+        <img src="imgs/desert-1.jpg" alt="brown leafless tree on brown field during daytime">
+        <img src="imgs/desert-2.jpg" alt="antelope canyon">
+        <img src="imgs/desert-3.jpg" alt="brown rock formation on brown field">
+        <img src="imgs/desert-4.jpg" alt="lands shot of desert">
+        <img src="imgs/desert-5.jpg" alt="desert sky under milky way">
+        <img src="imgs/desert-6.jpg" alt="brown sand under blue sky during daytime">
+    </div>
+    <a href="index.html">
+        <footer>Home Page</footer>
+    </a>
+</body>
+
+</html>
